@@ -6,7 +6,7 @@ metadata:
   name: webapp
 spec:
   containers:
-    - image: registry.gitlab.com/devops_world1/cicd-kubernetes/nginxcicd:v2
+    - image: registry.gitlab.com/devops_world1/kubernetes-ci-cd-pipeline/nginxcicd:v2
       name: webapp
   restartPolicy: Always
   imagePullSecrets:
